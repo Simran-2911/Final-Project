@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chirp.</title>
+  <link rel="stylesheet" href="CSS/Style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+
+  <header>
+
+    <nav>
+      <div class="logo">Chirp.</div>
+      <div class="menu">
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#four">Price</a></li>
+            <li><a href="FAQ.html">FAQ</a></li>
+          </ul> 
+          <div class="button">
+            <img src="Assets/Twitter.svg" alt="Button Icon">
+            <span>Sign in with Twitter</span>
+          </div>
+      </div>
+      <div class="hamburger">
+        <img src="Assets/Hamburger Menu.svg" alt="hamburger-icon">
+      </div>
+    </nav>
+
+  </header>
+
+  <main>
+
+    <section id="faq-container">
+
+      <h1>Chrip Frequently Asked Questions</h1>
+
+      <div class="faq-box">
+
+        <div class="faq-sbox">
+          <h2>How can I create an account to use Chirp?</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec scelerisque lorem,
+            vel vehicula elit. Maecenas ac dui eu massa tincidunt facilisis nec quis nisi Ut eleifend
+            lorem quis purus feugiat auctor.</p>
+        </div>
+  
+        <div class="faq-sbox">
+          <h2>Can I recover deleted Chirp posts?</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Suspendisse ac
+              urna vel nunc euismod pellentesque. Nunc laoreet eu mi ut varius.</p>
+        </div>
+  
+        <div class="faq-sbox">
+          <h2>How do I reset my password?</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a elit eu lectus fringilla eleifend at eu
+              dolor. Integer ullamcorper quam ac ipsum posuere, in euismod arcu eleifend.</p>
+        </div>
+  
+        <div class="faq-sbox">
+          <h2>How do I report inappropriate content?</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec scelerisque lorem,
+              vel vehicula elit. Maecenas ac dui eu massa tincidunt facilisis nec quis nisi.</p>
+        </div>
+  
+        <div class="faq-sbox">
+          <h2>How do I delete my Chirp account?</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non bibendum eros. Vivamus
+              feugiat vel ipsum at faucibus. Nulla facilisi. Cras ut enim nisi. Donec dapibus nibh ac purus faucibus,
+              non vehicula ligula luctus.</p>
+          </div>
+  
+          <div class="faq-sbox">
+            <h2>Is Chirp available in multiple languages?</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et eros vitae lacus
+                fringilla sodales. Sed efficitur vel mauris vel dapibus.</p>
+          </div>
+
+      </div>
+
+    </section>
+ 
+  </main>
+  
+  <footer>
+      <div class="footer-logo">Chirp.</div>
+      <div class="footer-menu">
+        <ul>
+          <li><img src="Assets/Twitter (Black).svg" alt="twitter"></li>
+          <li>Privacy Policy</li>
+          <li>Terms of Use</li>
+        </ul>
+      </div>    
+  </footer>
+
+  <script>
+  const hamburger = document.querySelector(".hamburger");
+  const navLinks = document.querySelector(".menu");
+
+    hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    navLinks.classList.toggle("active");
+   });
+  </script>
+</body>
+</html>
